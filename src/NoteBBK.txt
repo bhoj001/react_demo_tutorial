@@ -30,3 +30,19 @@ this phase is triggered when and element is changed in element tree of react.
 Unmount:
 This phase is called when and element is removed
 componentWillUnmount() is called just before and element is removed
+
+React tutorial topics
+----------------------
+Modern JavaScript
+Components
+Building Tables and Lists
+Pagination, Sorting and Searching
+Forms with Validation
+Routing and Navigation
+Calling HTTP Services
+Authentication and Authorization
+Handling and Logging Errors
+Higher Order Components
+Hooks
+Context
+Deployment
