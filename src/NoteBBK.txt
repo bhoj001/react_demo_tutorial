@@ -1,0 +1,32 @@
+Component tree
+
+        App
+   NavBar     Counters
+              Counter
+
+Figure: component tree of App with child Navbar Counters(child :counter)
+
+Lifecycle hooks
+
+Mount              Update               Unmount
+--------        ----------              --------
+constructor
+render             render     
+componentDidMount  componentDidUpdate     componentWillUnmount
+
+figure: few important life cycle hooks
+Note: if we ned lifecycle hooks we need class component 
+rather than stateless functional component. We only use 
+lifecycle hooks with class component
+
+Mount phase:
+Note: In Mount lifecycle hook: after constructor() render() is called 
+and render() is called recursively i.e. all its component are 
+rendered first and then the call moves to componentDidMount()
+
+Update phase:
+this phase is triggered when and element is changed in element tree of react.
+
+Unmount:
+This phase is called when and element is removed
+componentWillUnmount() is called just before and element is removed
